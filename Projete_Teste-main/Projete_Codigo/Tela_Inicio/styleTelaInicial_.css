@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Kanit';
+}
+
+body * {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.main-inicial{
+    width: 100vw;
+    height: 100vh;
+    background: #9acc77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.direita{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.esquerda{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lateral{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.botao-direita{
+    width: 80%;
+    padding: 16px 10px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center; 
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #000000;
+    background:#ffffff;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #494949;
+    justify-content: center;
+    align-items: center;
+}
+.contato-direita{
+    width: 80%;
+    padding: 16px 10px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center; 
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #000000;
+    background:#ffffff;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #494949;
+    justify-content: center;
+    align-items: center;
+}
+.ativo{
+    width: 100%;
+    padding: 16px 10px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center; 
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #000000;
+    background:#ffffff;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #494949;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    align-items: center;
+    width: 35vw;
+    border-radius: 8px;
+}
+.menu{
+    align-items: center;
+}
+.direita > h2 {
+    font-size: 2vw;
+    color: #000000be;
+}
+.lateral > h3{
+    font-size: 2vw;
+    color: #000000be;
+}
+
+@media only screen and (max-winth: 600px){
+    .main-inicial{
+        flex-direction: column;
+    }
+    .esquerda{
+        width: 100%;
+        height: auto;
+    }
+    .direita{
+        width: 100%;
+        height: auto;
+    }
+    .logo{
+        width: 50vw;
+    }
+    .ativo{
+        width: 100%;
+        height: auto;
+    }
+    }
